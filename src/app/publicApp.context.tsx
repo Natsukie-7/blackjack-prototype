@@ -1,10 +1,8 @@
-import { setInLocalStorage } from "@utilities/localStorage";
 import { User, UserInterface } from "@utilities/user";
 import {
   ContextProviderProps,
   createContextProvider,
 } from "@solid-primitives/context";
-import { useLocation, useNavigate } from "@solidjs/router";
 import { createUniqueId, mergeProps } from "solid-js";
 import { createStore, SetStoreFunction } from "solid-js/store";
 
